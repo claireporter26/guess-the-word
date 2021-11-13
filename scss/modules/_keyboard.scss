@@ -1,0 +1,30 @@
+.keyboard-area {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.keyboard {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+
+}
+
+.key {
+    font-size: 2rem;
+    padding: .3rem .6rem;
+    border: 1px solid $white;
+    margin: 3px 4px;
+
+    &:hover {
+        background-color: rgba($white, 0.9);
+        color: $darkBlue;
+        cursor: pointer;
+        
+    }
+    
+    
+}
